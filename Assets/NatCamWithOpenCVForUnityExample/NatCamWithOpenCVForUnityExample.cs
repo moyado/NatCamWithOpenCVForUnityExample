@@ -194,6 +194,7 @@ namespace NatCamWithOpenCVForUnityExample
         {
             switch (preset) {
             case ResolutionPreset._50x50: width = 50; height = 50; break;
+            case ResolutionPreset._640x480: width = 320; height = 420; break;        
             case ResolutionPreset._640x480: width = 640; height = 480; break;
             case ResolutionPreset._1280x720: width = 1280; height = 720; break;
             case ResolutionPreset._1920x1080: width = 1920; height = 1080; break;
